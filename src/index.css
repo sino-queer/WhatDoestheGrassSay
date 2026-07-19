@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&family=Noto+Serif+SC:wght@500;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-brand-purple: #4D26B2;
+  --color-brand-purple-light: #6D43DE;
+  --color-brand-purple-dark: #331584;
+  --color-brand-yellow: #FFB208;
+  --color-brand-yellow-dark: #D39306;
+  
+  --font-serif: "Noto Serif SC", "Playfair Display", Georgia, serif;
+  --font-sans: "Noto Sans SC", "Space Grotesk", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+}
+
+/* Custom aesthetic scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(77, 38, 178, 0.05);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(77, 38, 178, 0.2);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #4D26B2;
+}
+
+/* Elegant ambient animations */
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.01); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+/* Custom range input styling for audio seek-bar */
+input[type="range"] {
+  -webkit-appearance: none;
+  appearance: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  background: rgba(255, 255, 255, 0.2);
+  height: 4px;
+  border-radius: 2px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  margin-top: -6px; /* center thumb */
+  background-color: #FFB208;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}
