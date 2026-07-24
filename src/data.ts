@@ -1,9 +1,23 @@
 import { Artwork } from './types';
 
-export const PRINTMAKING_ARTWORKS: Artwork[] = [
+const RAW_ARTWORKS: Artwork[] = [
   {
     "id": "1",
     "number": "01",
+    "titleZh": "",
+    "titleEn": "",
+    "author": "",
+    "descriptionZh": "",
+    "descriptionEn": "",
+    "themeZh": "刻出你与世界的流动",
+    "themeEn": "Carve the 'flow' between you and the world",
+    "session": "S2",
+    "themeColor": "#FF8D00",
+    "themeTextColor": "#FFFFFF"
+  },
+  {
+    "id": "2",
+    "number": "02",
     "titleZh": "",
     "titleEn": "",
     "author": "basin",
@@ -12,12 +26,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "刻出你与世界的流动",
     "themeEn": "Carve the 'flow' between you and the world",
     "session": "S2",
-    "themeColor": "#EF4444",
+    "themeColor": "#FF8D00",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "2",
-    "number": "02",
+    "id": "3",
+    "number": "03",
     "titleZh": "Our Pain",
     "titleEn": "Our Pain",
     "author": "Sunny",
@@ -26,12 +40,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "刻出你与世界的流动",
     "themeEn": "Carve the 'flow' between you and the world",
     "session": "S2",
-    "themeColor": "#EF4444",
+    "themeColor": "#FF8D00",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "3",
-    "number": "03",
+    "id": "4",
+    "number": "04",
     "titleZh": "",
     "titleEn": "",
     "author": "leyi",
@@ -40,12 +54,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "刻出你与世界的流动",
     "themeEn": "Carve the 'flow' between you and the world",
     "session": "S2",
-    "themeColor": "#EF4444",
+    "themeColor": "#FF8D00",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "4",
-    "number": "04",
+    "id": "5",
+    "number": "05",
     "titleZh": "",
     "titleEn": "",
     "author": "Yidi",
@@ -54,12 +68,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "刻出你与世界的流动",
     "themeEn": "Carve the 'flow' between you and the world",
     "session": "S2",
-    "themeColor": "#EF4444",
+    "themeColor": "#FF8D00",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "5",
-    "number": "05",
+    "id": "6",
+    "number": "06",
     "titleZh": "",
     "titleEn": "",
     "author": "Siqi",
@@ -68,12 +82,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "刻出你与世界的流动",
     "themeEn": "Carve the 'flow' between you and the world",
     "session": "S2",
-    "themeColor": "#EF4444",
+    "themeColor": "#FF8D00",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "6",
-    "number": "06",
+    "id": "7",
+    "number": "07",
     "titleZh": "",
     "titleEn": "",
     "author": "Lesley",
@@ -82,12 +96,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "刻出你与世界的流动",
     "themeEn": "Carve the 'flow' between you and the world",
     "session": "S2",
-    "themeColor": "#EF4444",
+    "themeColor": "#FF8D00",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "7",
-    "number": "07",
+    "id": "8",
+    "number": "08",
     "titleZh": "",
     "titleEn": "",
     "author": "Tenya",
@@ -96,12 +110,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "刻出你与世界的流动",
     "themeEn": "Carve the 'flow' between you and the world",
     "session": "S2",
-    "themeColor": "#EF4444",
+    "themeColor": "#FF8D00",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "8",
-    "number": "08",
+    "id": "9",
+    "number": "09",
     "titleZh": "兰花",
     "titleEn": "Orchid",
     "author": "",
@@ -110,12 +124,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "消除性别暴力16日行动",
     "themeEn": "16 Days of Activism Against GBV",
     "session": "S3",
-    "themeColor": "#F97316",
+    "themeColor": "#004CFF",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "9",
-    "number": "09",
+    "id": "10",
+    "number": "10",
     "titleZh": "无孩爱猫女炮轰性别暴力",
     "titleEn": "Childless Cat Ladies Blast GBV",
     "author": "H.Y.Y",
@@ -124,12 +138,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "消除性别暴力16日行动",
     "themeEn": "16 Days of Activism Against GBV",
     "session": "S3",
-    "themeColor": "#F97316",
+    "themeColor": "#004CFF",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "10",
-    "number": "10",
+    "id": "11",
+    "number": "11",
     "titleZh": "不要对性别暴力视而不见",
     "titleEn": "Don't Turn a Blind Eye to GBV",
     "author": "yue",
@@ -138,12 +152,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "消除性别暴力16日行动",
     "themeEn": "16 Days of Activism Against GBV",
     "session": "S3",
-    "themeColor": "#F97316",
+    "themeColor": "#004CFF",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "11",
-    "number": "11",
+    "id": "12",
+    "number": "12",
     "titleZh": "Anti Violence 握拳",
     "titleEn": "Anti Violence: The Fist",
     "author": "Haiyin",
@@ -152,12 +166,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "消除性别暴力16日行动",
     "themeEn": "16 Days of Activism Against GBV",
     "session": "S3",
-    "themeColor": "#F97316",
+    "themeColor": "#004CFF",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "12",
-    "number": "12",
+    "id": "13",
+    "number": "13",
     "titleZh": "Belay in You",
     "titleEn": "Belay in You",
     "author": "",
@@ -166,12 +180,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "消除性别暴力16日行动",
     "themeEn": "16 Days of Activism Against GBV",
     "session": "S3",
-    "themeColor": "#F97316",
+    "themeColor": "#004CFF",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "13",
-    "number": "13",
+    "id": "14",
+    "number": "14",
     "titleZh": "Soup",
     "titleEn": "Soup",
     "author": "小树",
@@ -180,12 +194,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "消除性别暴力16日行动",
     "themeEn": "16 Days of Activism Against GBV",
     "session": "S3",
-    "themeColor": "#F97316",
+    "themeColor": "#004CFF",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "14",
-    "number": "14",
+    "id": "15",
+    "number": "15",
     "titleZh": "STOP IMAGE ABUSE",
     "titleEn": "STOP IMAGE ABUSE",
     "author": "",
@@ -194,12 +208,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "消除性别暴力16日行动",
     "themeEn": "16 Days of Activism Against GBV",
     "session": "S3",
-    "themeColor": "#F97316",
+    "themeColor": "#004CFF",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "15",
-    "number": "15",
+    "id": "16",
+    "number": "16",
     "titleZh": "别忘记她",
     "titleEn": "Don't Forget Her",
     "author": "Lesley",
@@ -208,12 +222,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "消除性别暴力16日行动",
     "themeEn": "16 Days of Activism Against GBV",
     "session": "S3",
-    "themeColor": "#F97316",
+    "themeColor": "#004CFF",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "16",
-    "number": "16",
+    "id": "17",
+    "number": "17",
     "titleZh": "Speak Up!",
     "titleEn": "Speak Up!",
     "author": "Sunny",
@@ -222,12 +236,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "消除性别暴力16日行动",
     "themeEn": "16 Days of Activism Against GBV",
     "session": "S3",
-    "themeColor": "#F97316",
+    "themeColor": "#004CFF",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "17",
-    "number": "17",
+    "id": "18",
+    "number": "18",
     "titleZh": "Name it!",
     "titleEn": "Name it!",
     "author": "ly",
@@ -236,12 +250,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "消除性别暴力16日行动",
     "themeEn": "16 Days of Activism Against GBV",
     "session": "S3",
-    "themeColor": "#F97316",
+    "themeColor": "#004CFF",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "18",
-    "number": "18",
+    "id": "19",
+    "number": "19",
     "titleZh": "Queer Here",
     "titleEn": "Queer Here",
     "author": "",
@@ -250,12 +264,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "酷儿春节",
     "themeEn": "Queer Spring Festival",
     "session": "S4",
-    "themeColor": "#FFB208",
-    "themeTextColor": "#4D26B2"
+    "themeColor": "#E50000",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "19",
-    "number": "19",
+    "id": "20",
+    "number": "20",
     "titleZh": "马踏飞机(平安有钱有工作有成果版)",
     "titleEn": "Horse Stepping on a Plane",
     "author": "",
@@ -264,12 +278,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "酷儿春节",
     "themeEn": "Queer Spring Festival",
     "session": "S4",
-    "themeColor": "#FFB208",
-    "themeTextColor": "#4D26B2"
+    "themeColor": "#E50000",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "20",
-    "number": "20",
+    "id": "21",
+    "number": "21",
     "titleZh": "2026大滑特滑",
     "titleEn": "2026: Sliding Through",
     "author": "Zoe",
@@ -278,12 +292,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "酷儿春节",
     "themeEn": "Queer Spring Festival",
     "session": "S4",
-    "themeColor": "#FFB208",
-    "themeTextColor": "#4D26B2"
+    "themeColor": "#E50000",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "21",
-    "number": "21",
+    "id": "22",
+    "number": "22",
     "titleZh": "灶神奶奶",
     "titleEn": "The Kitchen Grandmother",
     "author": "",
@@ -292,12 +306,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "酷儿春节",
     "themeEn": "Queer Spring Festival",
     "session": "S4",
-    "themeColor": "#FFB208",
-    "themeTextColor": "#4D26B2"
+    "themeColor": "#E50000",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "22",
-    "number": "22",
+    "id": "23",
+    "number": "23",
     "titleZh": "猫到福到",
     "titleEn": "When Cats Arrive, Blessings Arrive",
     "author": "",
@@ -306,12 +320,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "酷儿春节",
     "themeEn": "Queer Spring Festival",
     "session": "S4",
-    "themeColor": "#FFB208",
-    "themeTextColor": "#4D26B2"
+    "themeColor": "#E50000",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "23",
-    "number": "23",
+    "id": "24",
+    "number": "24",
     "titleZh": "全家福",
     "titleEn": "The Family Portrait",
     "author": "",
@@ -320,12 +334,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "酷儿春节",
     "themeEn": "Queer Spring Festival",
     "session": "S4",
-    "themeColor": "#FFB208",
-    "themeTextColor": "#4D26B2"
+    "themeColor": "#E50000",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "24",
-    "number": "24",
+    "id": "25",
+    "number": "25",
     "titleZh": "万马奔腾",
     "titleEn": "A Gallop of Ten Thousand Horses",
     "author": "",
@@ -334,12 +348,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "酷儿春节",
     "themeEn": "Queer Spring Festival",
     "session": "S4",
-    "themeColor": "#FFB208",
-    "themeTextColor": "#4D26B2"
+    "themeColor": "#E50000",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "25",
-    "number": "25",
+    "id": "26",
+    "number": "26",
     "titleZh": "Let's 發春",
     "titleEn": "Let's Bloom",
     "author": "泽泽",
@@ -348,12 +362,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "酷儿春节",
     "themeEn": "Queer Spring Festival",
     "session": "S4",
-    "themeColor": "#FFB208",
-    "themeTextColor": "#4D26B2"
+    "themeColor": "#E50000",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "26",
-    "number": "26",
+    "id": "27",
+    "number": "27",
     "titleZh": "Queer福",
     "titleEn": "Queer Fu",
     "author": "",
@@ -362,12 +376,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "酷儿春节",
     "themeEn": "Queer Spring Festival",
     "session": "S4",
-    "themeColor": "#FFB208",
-    "themeTextColor": "#4D26B2"
+    "themeColor": "#E50000",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "27",
-    "number": "27",
+    "id": "28",
+    "number": "28",
     "titleZh": "元宝奶",
     "titleEn": "Nipple Ingot",
     "author": "ly",
@@ -376,12 +390,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "酷儿春节",
     "themeEn": "Queer Spring Festival",
     "session": "S4",
-    "themeColor": "#FFB208",
-    "themeTextColor": "#4D26B2"
+    "themeColor": "#E50000",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "28",
-    "number": "28",
+    "id": "29",
+    "number": "29",
     "titleZh": "妈到成功",
     "titleEn": "Ma (Mother) to Success",
     "author": "Lesley",
@@ -390,12 +404,96 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "酷儿春节",
     "themeEn": "Queer Spring Festival",
     "session": "S4",
-    "themeColor": "#FFB208",
-    "themeTextColor": "#4D26B2"
+    "themeColor": "#E50000",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "29",
-    "number": "29",
+    "id": "30",
+    "number": "30",
+    "titleZh": "",
+    "titleEn": "",
+    "author": "",
+    "descriptionZh": "",
+    "descriptionEn": "",
+    "themeZh": "妇女节",
+    "themeEn": "International Women's Day",
+    "session": "S5",
+    "themeColor": "#770088",
+    "themeTextColor": "#FFFFFF"
+  },
+  {
+    "id": "31",
+    "number": "31",
+    "titleZh": "",
+    "titleEn": "",
+    "author": "",
+    "descriptionZh": "",
+    "descriptionEn": "",
+    "themeZh": "妇女节",
+    "themeEn": "International Women's Day",
+    "session": "S5",
+    "themeColor": "#770088",
+    "themeTextColor": "#FFFFFF"
+  },
+  {
+    "id": "32",
+    "number": "32",
+    "titleZh": "",
+    "titleEn": "",
+    "author": "",
+    "descriptionZh": "",
+    "descriptionEn": "",
+    "themeZh": "妇女节",
+    "themeEn": "International Women's Day",
+    "session": "S5",
+    "themeColor": "#770088",
+    "themeTextColor": "#FFFFFF"
+  },
+  {
+    "id": "33",
+    "number": "33",
+    "titleZh": "",
+    "titleEn": "",
+    "author": "",
+    "descriptionZh": "",
+    "descriptionEn": "",
+    "themeZh": "妇女节",
+    "themeEn": "International Women's Day",
+    "session": "S5",
+    "themeColor": "#770088",
+    "themeTextColor": "#FFFFFF"
+  },
+  {
+    "id": "34",
+    "number": "34",
+    "titleZh": "",
+    "titleEn": "",
+    "author": "",
+    "descriptionZh": "",
+    "descriptionEn": "",
+    "themeZh": "妇女节",
+    "themeEn": "International Women's Day",
+    "session": "S5",
+    "themeColor": "#770088",
+    "themeTextColor": "#FFFFFF"
+  },
+  {
+    "id": "35",
+    "number": "35",
+    "titleZh": "",
+    "titleEn": "",
+    "author": "",
+    "descriptionZh": "",
+    "descriptionEn": "",
+    "themeZh": "妇女节",
+    "themeEn": "International Women's Day",
+    "session": "S5",
+    "themeColor": "#770088",
+    "themeTextColor": "#FFFFFF"
+  },
+  {
+    "id": "36",
+    "number": "36",
     "titleZh": "朋友",
     "titleEn": "Friends / Harmony",
     "author": "Awlyn",
@@ -404,12 +502,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "我们与战争的距离",
     "themeEn": "Between Us and War",
     "session": "S6",
-    "themeColor": "#22C55E",
+    "themeColor": "#613A15",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "30",
-    "number": "30",
+    "id": "37",
+    "number": "37",
     "titleZh": "Star Peace",
     "titleEn": "Star Peace",
     "author": "",
@@ -418,12 +516,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "我们与战争的距离",
     "themeEn": "Between Us and War",
     "session": "S6",
-    "themeColor": "#22C55E",
+    "themeColor": "#613A15",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "31",
-    "number": "31",
+    "id": "38",
+    "number": "38",
     "titleZh": "共创世界",
     "titleEn": "Co-creating the World",
     "author": "Lesley",
@@ -432,12 +530,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "我们与战争的距离",
     "themeEn": "Between Us and War",
     "session": "S6",
-    "themeColor": "#22C55E",
+    "themeColor": "#613A15",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "32",
-    "number": "32",
+    "id": "39",
+    "number": "39",
     "titleZh": "飞跃苦海",
     "titleEn": "Leaping Over the Sea of Bitterness",
     "author": "",
@@ -446,12 +544,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "我们与战争的距离",
     "themeEn": "Between Us and War",
     "session": "S6",
-    "themeColor": "#22C55E",
+    "themeColor": "#613A15",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "33",
-    "number": "33",
+    "id": "40",
+    "number": "40",
     "titleZh": "格尔朋卡",
     "titleEn": "Guerponca",
     "author": "大盆",
@@ -460,12 +558,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "我们与战争的距离",
     "themeEn": "Between Us and War",
     "session": "S6",
-    "themeColor": "#22C55E",
+    "themeColor": "#613A15",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "34",
-    "number": "34",
+    "id": "41",
+    "number": "41",
     "titleZh": "AN ACTION HAVE CONSEQUENCE",
     "titleEn": "AN ACTION HAVE CONSEQUENCE",
     "author": "yueyue",
@@ -474,12 +572,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "我们与战争的距离",
     "themeEn": "Between Us and War",
     "session": "S6",
-    "themeColor": "#22C55E",
+    "themeColor": "#613A15",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "35",
-    "number": "35",
+    "id": "42",
+    "number": "42",
     "titleZh": "IF ANTS RULE THE WORLD",
     "titleEn": "IF ANTS RULE THE WORLD",
     "author": "星",
@@ -488,12 +586,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "我们与战争的距离",
     "themeEn": "Between Us and War",
     "session": "S6",
-    "themeColor": "#22C55E",
+    "themeColor": "#613A15",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "36",
-    "number": "36",
+    "id": "43",
+    "number": "43",
     "titleZh": "战火",
     "titleEn": "Flames of War",
     "author": "Bao",
@@ -502,12 +600,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "我们与战争的距离",
     "themeEn": "Between Us and War",
     "session": "S6",
-    "themeColor": "#22C55E",
+    "themeColor": "#613A15",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "37",
-    "number": "37",
+    "id": "44",
+    "number": "44",
     "titleZh": "Dance, not war",
     "titleEn": "Dance, not war",
     "author": "Ren",
@@ -516,12 +614,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "我们与战争的距离",
     "themeEn": "Between Us and War",
     "session": "S6",
-    "themeColor": "#22C55E",
+    "themeColor": "#613A15",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "38",
-    "number": "38",
+    "id": "45",
+    "number": "45",
     "titleZh": "Machine OR Not",
     "titleEn": "Machine OR Not",
     "author": "鹅老师",
@@ -530,12 +628,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "玫瑰与面包",
     "themeEn": "Roses and Bread",
     "session": "S7",
-    "themeColor": "#3B82F6",
+    "themeColor": "#028121",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "39",
-    "number": "39",
+    "id": "46",
+    "number": "46",
     "titleZh": "世界由我建造",
     "titleEn": "The world is built by me",
     "author": "猛子",
@@ -544,12 +642,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "玫瑰与面包",
     "themeEn": "Roses and Bread",
     "session": "S7",
-    "themeColor": "#3B82F6",
+    "themeColor": "#028121",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "40",
-    "number": "40",
+    "id": "47",
+    "number": "47",
     "titleZh": "不想上班",
     "titleEn": "I don't want to work",
     "author": "Shuo Miao",
@@ -558,12 +656,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "玫瑰与面包",
     "themeEn": "Roses and Bread",
     "session": "S7",
-    "themeColor": "#3B82F6",
+    "themeColor": "#028121",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "41",
-    "number": "41",
+    "id": "48",
+    "number": "48",
     "titleZh": "Just a bathroom, Take your time",
     "titleEn": "Just a bathroom, Take your time",
     "author": "Tantan",
@@ -572,12 +670,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "玫瑰与面包",
     "themeEn": "Roses and Bread",
     "session": "S7",
-    "themeColor": "#3B82F6",
+    "themeColor": "#028121",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "42",
-    "number": "42",
+    "id": "49",
+    "number": "49",
     "titleZh": "口苗口王又见",
     "titleEn": "MIAO-WANG GUAN (The Temple of Meows and Woofs)",
     "author": "Jiashu",
@@ -586,12 +684,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "玫瑰与面包",
     "themeEn": "Roses and Bread",
     "session": "S8",
-    "themeColor": "#4D26B2",
-    "themeTextColor": "#FFB208"
+    "themeColor": "#028121",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "43",
-    "number": "43",
+    "id": "50",
+    "number": "50",
     "titleZh": "歧视终结者",
     "titleEn": "Discrimination Terminator",
     "author": "Yue Yue",
@@ -600,12 +698,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "玫瑰与面包",
     "themeEn": "Roses and Bread",
     "session": "S8",
-    "themeColor": "#4D26B2",
-    "themeTextColor": "#FFB208"
+    "themeColor": "#028121",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "44",
-    "number": "44",
+    "id": "51",
+    "number": "51",
     "titleZh": "PICKING PEBBLES",
     "titleEn": "PICKING PEBBLES",
     "author": "AMANDARDEA",
@@ -614,12 +712,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "玫瑰与面包",
     "themeEn": "Roses and Bread",
     "session": "S8",
-    "themeColor": "#4D26B2",
-    "themeTextColor": "#FFB208"
+    "themeColor": "#028121",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "45",
-    "number": "45",
+    "id": "52",
+    "number": "52",
     "titleZh": "新贝蒂不是小丑",
     "titleEn": "The New Betty is no joker",
     "author": "hyy",
@@ -628,12 +726,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "玫瑰与面包",
     "themeEn": "Roses and Bread",
     "session": "S8",
-    "themeColor": "#4D26B2",
-    "themeTextColor": "#FFB208"
+    "themeColor": "#028121",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "46",
-    "number": "46",
+    "id": "53",
+    "number": "53",
     "titleZh": "Hope in Work",
     "titleEn": "Hope in Work",
     "author": "阿兰 Alan",
@@ -642,12 +740,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "玫瑰与面包",
     "themeEn": "Roses and Bread",
     "session": "S8",
-    "themeColor": "#4D26B2",
-    "themeTextColor": "#FFB208"
+    "themeColor": "#028121",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "47",
-    "number": "47",
+    "id": "54",
+    "number": "54",
     "titleZh": "简历",
     "titleEn": "The Resume",
     "author": "Judy",
@@ -656,12 +754,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "玫瑰与面包",
     "themeEn": "Roses and Bread",
     "session": "S8",
-    "themeColor": "#4D26B2",
-    "themeTextColor": "#FFB208"
+    "themeColor": "#028121",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "48",
-    "number": "48",
+    "id": "55",
+    "number": "55",
     "titleZh": "Love yourself as a flower",
     "titleEn": "Love yourself as a flower",
     "author": "Stars",
@@ -670,12 +768,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "玫瑰与面包",
     "themeEn": "Roses and Bread",
     "session": "S8",
-    "themeColor": "#4D26B2",
-    "themeTextColor": "#FFB208"
+    "themeColor": "#028121",
+    "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "49",
-    "number": "49",
+    "id": "56",
+    "number": "56",
     "titleZh": "众手成墙",
     "titleEn": "Hands build a wall",
     "author": "查无此人",
@@ -684,12 +782,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "反叛青年",
     "themeEn": "Riot Me",
     "session": "S9",
-    "themeColor": "#EC4899",
+    "themeColor": "#FB306D",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "50",
-    "number": "50",
+    "id": "57",
+    "number": "57",
     "titleZh": "存在",
     "titleEn": "Exist",
     "author": "Amy",
@@ -698,12 +796,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "反叛青年",
     "themeEn": "Riot Me",
     "session": "S9",
-    "themeColor": "#EC4899",
+    "themeColor": "#FB306D",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "51",
-    "number": "51",
+    "id": "58",
+    "number": "58",
     "titleZh": "Throw the first brick",
     "titleEn": "Throw the first brick",
     "author": "Tantan",
@@ -712,12 +810,12 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "反叛青年",
     "themeEn": "Riot Me",
     "session": "S9",
-    "themeColor": "#EC4899",
+    "themeColor": "#FB306D",
     "themeTextColor": "#FFFFFF"
   },
   {
-    "id": "52",
-    "number": "52",
+    "id": "59",
+    "number": "59",
     "titleZh": "Ctrl Z",
     "titleEn": "Ctrl Z",
     "author": "Momo",
@@ -726,7 +824,18 @@ export const PRINTMAKING_ARTWORKS: Artwork[] = [
     "themeZh": "反叛青年",
     "themeEn": "Riot Me",
     "session": "S9",
-    "themeColor": "#EC4899",
+    "themeColor": "#FB306D",
     "themeTextColor": "#FFFFFF"
   }
 ];
+
+const printingImages = import.meta.glob('./printings/*.png', {
+  eager: true,
+  query: '?url',
+  import: 'default',
+}) as Record<string, string>;
+
+export const PRINTMAKING_ARTWORKS: Artwork[] = RAW_ARTWORKS.map((artwork) => ({
+  ...artwork,
+  imageSrc: printingImages[`./printings/${artwork.id}.png`],
+}));
