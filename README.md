@@ -24,7 +24,7 @@ This site is the digital home for that growing body of work: browse by session a
 
 ## 浏览网站 / Visit the site
 
-https://lesley-qing-gu.github.io/WhatDoestheGrassSay/
+https://sino-queer.github.io/WhatDoestheGrassSay/
 
 ## 关注我们 / Follow us
 
