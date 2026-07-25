@@ -829,7 +829,7 @@ const RAW_ARTWORKS: Artwork[] = [
   }
 ];
 
-const printingImages = import.meta.glob('./printings/*.png', {
+const printingImages = import.meta.glob('./printings/*.webp', {
   eager: true,
   query: '?url',
   import: 'default',
@@ -837,5 +837,5 @@ const printingImages = import.meta.glob('./printings/*.png', {
 
 export const PRINTMAKING_ARTWORKS: Artwork[] = RAW_ARTWORKS.map((artwork) => ({
   ...artwork,
-  imageSrc: printingImages[`./printings/${artwork.id}.png`],
+  imageSrc: printingImages[`./printings/${artwork.id}.webp`],
 }));
